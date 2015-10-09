@@ -13,6 +13,9 @@ public class FirstJava {
 
         int x = (a + b + c);
 
+        //Ola is adding this
+        String y = "Hey, we did it!!!! Java rocks!"
+
         System.out.println(x);
 
     }
