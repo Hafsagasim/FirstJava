@@ -24,22 +24,19 @@ class FirstJava {
         a = b;
         System.out.println(a);
 
+
         int n, c;
         System.out.println("Enter an integer to print it's multiplication table: ");
         Scanner in = new Scanner(System.in);
         n = in.nextInt();
         System.out.println("Multiplication table of "+ n +" is :-");
 
+        //Ola is adding this
+        String x = "Hey, we did it!!!! Java rocks!";
+
+        System.out.println(x);
+
         for ( c = 1 ; c <= 10 ; c++ )
             System.out.println(n+" * "+c+" = "+(n * c));
     }
 }
-
-
-
-
-
-
-
-
-
